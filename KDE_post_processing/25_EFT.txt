@@ -1,0 +1,69 @@
+OUTPUTS FROM TERMINAL
+
+#Cubic_Even EFT
+#NR, O4, PHM, EOB
+===== RESULTS =====
+Peak_0 (MAP): 0.016858
+90% upper bound_0: [29.404640, 0.018944]
+Peak_1 (MAP): 19.637301
+90% upper bound_1: [27.646650, 0.023877]
+Peak_2 (MAP): 19.859635
+90% upper bound_2: [26.451910, 0.027016]
+Peak_3 (MAP): 20.715895
+90% upper bound_3: [28.033829, 0.021644]
+
+#ParSpec_Dmax_TGR = 0, 1, 2
+===== RESULTS =====
+Peak_0 (MAP): 24.901253
+90% upper bound_0: [34.005906, 0.018235]
+Peak_1 (MAP): 24.521644
+90% upper bound_1: [32.449719, 0.017834]
+Peak_2 (MAP): 22.440211
+90% upper bound_2: [30.045971, 0.020725]
+
+
+#Cubic_Odd EFT
+#ParSpec_Dmax_TGR = 0, 1, 2
+===== RESULTS =====
+Peak_0 (MAP): 24.113058
+90% upper bound_0: [32.669658, 0.020364]
+Peak_1 (MAP): 24.547321
+90% upper bound_1: [31.958539, 0.021067]
+Peak_2 (MAP): 20.240773
+90% upper bound_2: [31.532919, 0.015074]
+
+
+#Quartic_1 EFT
+#ParSpec_Dmax_TGR = 0, 1, 2
+===== RESULTS =====
+Peak_0 (MAP): 27.935197
+90% upper bound_0: [33.436163, 0.024028]
+Peak_1 (MAP): 27.485961
+90% upper bound_1: [33.072797, 0.023727]
+Peak_2 (MAP): 24.532912
+90% upper bound_2: [30.352429, 0.022919]
+
+
+#Quartic_2 EFT
+#ParSpec_Dmax_TGR = 0, 1, 2
+===== RESULTS =====
+Peak_0 (MAP): 28.108178
+90% upper bound_0: [34.397756, 0.021193]
+Peak_1 (MAP): 27.631330
+90% upper bound_1: [33.718754, 0.023090]
+Peak_2 (MAP): 25.461113
+90% upper bound_2: [33.399540, 0.019217]
+
+
+#Quartic_3 EFT
+#ParSpec_Dmax_TGR = 0, 1, 2
+===== RESULTS =====
+Peak_0 (MAP): 28.499870
+90% upper bound_0: [33.778551, 0.023989]
+Peak_1 (MAP): 27.135132
+90% upper bound_1: [33.548848, 0.020977]
+Peak_2 (MAP): 25.575150
+90% upper bound_2: [30.890446, 0.023337]
+
+
+

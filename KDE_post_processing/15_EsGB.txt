@@ -1,0 +1,18 @@
+OUTPUTS FROM TERMINAL
+
+#ParSpec_Dmax_TGR = 2
+===== RESULTS =====
+Peak (MAP): 9.348521
+90% CI: [32.548520, 0.008426]
+90% upper bound: [28.152230, 0.014213]
+
+#ParSpec_Dmax_TGR = 0, 1, 2
+===== RESULTS =====
+Peak_0 (MAP): 9.164179
+90% upper bound_0: [48.983164, 0.009152]
+Peak_1 (MAP): 0.008332
+90% upper bound_1: [41.483749, 0.011948]
+Peak_2 (MAP): 9.348521
+90% upper bound_2: [28.152230, 0.014213]
+
+

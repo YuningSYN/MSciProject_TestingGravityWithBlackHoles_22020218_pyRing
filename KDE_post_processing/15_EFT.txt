@@ -1,0 +1,107 @@
+OUTPUTS FROM TERMINAL
+
+#Cubic_Even EFT
+#4kHz v.s. 16kHz
+===== RESULTS =====
+Peak_0 (MAP): 0.019163
+90% upper bound_0: [31.901750, 0.013286]
+Peak_1 (MAP): 0.014406
+90% upper bound_1: [35.538178, 0.012897]
+
+#free A v.s. 
+===== RESULTS =====
+Peak_0 (MAP): 13.844926
+90% upper bound_0: [37.593032, 0.014470]
+Peak_1 (MAP): 0.001196
+90% upper bound_1: [62.201287, 0.010533]
+
+#ParSpec_Dmax_TGR = 0, 1, 2
+===== RESULTS =====
+Peak_0 (MAP): 0.007840
+90% upper bound_0: [38.438434, 0.014863]
+Peak_1 (MAP): 30.345500
+90% upper bound_1: [40.109852, 0.013201]
+Peak_2 (MAP): 13.967388
+90% upper bound_2: [37.593032, 0.014633]
+
+
+#Cubic_Odd EFT
+#4kHz v.s. 16kHz
+===== RESULTS =====
+Peak_0 (MAP): 0.028582
+90% upper bound_0: [35.119285, 0.015222]
+Peak_1 (MAP): 8.089429
+90% upper bound_1: [38.269112, 0.013867]
+
+#free A v.s. 
+===== RESULTS =====
+Peak_0 (MAP): 2.143355
+90% upper bound_0: [35.852044, 0.015471]
+Peak_1 (MAP): 0.010181
+90% upper bound_1: [61.933233, 0.010342]
+
+#ParSpec_Dmax_TGR = 0, 1, 2
+===== RESULTS =====
+Peak_0 (MAP): 0.004890
+90% upper bound_0: [38.095305, 0.015049]
+Peak_1 (MAP): 28.841126
+90% upper bound_1: [38.398910, 0.017165]
+Peak_2 (MAP): 2.143355
+90% upper bound_2: [35.852044, 0.015471]
+
+
+#Quartic_1 EFT
+#free A v.s. 
+===== RESULTS =====
+Peak_0 (MAP): 0.004317
+90% upper bound_0: [37.376707, 0.014880]
+Peak_1 (MAP): 35.663961
+90% upper bound_1: [64.801153, 0.010902]
+
+#ParSpec_Dmax_TGR = 0, 1, 2
+===== RESULTS =====
+Peak_0 (MAP): 8.175031
+90% upper bound_0: [37.823929, 0.016596]
+Peak_1 (MAP): 7.442960
+90% upper bound_1: [36.928955, 0.017486]
+Peak_2 (MAP): 3.522136
+90% upper bound_2: [37.376707, 0.014532]
+
+
+#Quartic_2 EFT
+#free A v.s. 
+===== RESULTS =====
+Peak_0 (MAP): 5.761309
+90% upper bound_0: [34.932460, 0.016420]
+Peak_1 (MAP): 21.044694
+90% upper bound_1: [66.839564, 0.011277]
+
+#ParSpec_Dmax_TGR = 0, 1, 2
+===== RESULTS =====
+Peak_0 (MAP): 31.660230
+90% upper bound_0: [38.712323, 0.016877]
+Peak_1 (MAP): 31.856945
+90% upper bound_1: [39.094368, 0.015763]
+Peak_2 (MAP): 6.498700
+90% upper bound_2: [34.932460, 0.016965]
+
+
+#Quartic_3 EFT
+#free A v.s. 
+===== RESULTS =====
+Peak_0 (MAP): 13.037623
+90% upper bound_0: [35.977884, 0.017584]
+Peak_1 (MAP): 17.133168
+90% upper bound_1: [64.781636, 0.011064]
+
+#ParSpec_Dmax_TGR = 0, 1, 2
+===== RESULTS =====
+Peak_0 (MAP): 31.532822
+90% upper bound_0: [37.825627, 0.017954]
+Peak_1 (MAP): 29.042067
+90% upper bound_1: [38.199196, 0.016664]
+Peak_2 (MAP): 13.604222
+90% upper bound_2: [35.977884, 0.017931]
+
+
+
