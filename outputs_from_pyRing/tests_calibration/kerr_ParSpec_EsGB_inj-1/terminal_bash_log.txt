@@ -1,0 +1,540 @@
+(pyring39) yuning@yuning-Legion-Y7000P-IAH7:~$ pyRing --config-file /media/yuning/新加卷/Downloads/pyring/EsGB/config_kerr_ParSpec_EsGB_inj.ini
+/media/yuning/新加卷/Downloads/miniconda3/envs/pyring39/lib/python3.9/site-packages/pyRing/utils.py:67: UserWarning: * The `surfinBH` package is not automatically installed due to possible conflicts. If you wish to use its functionalities, it needs to be installed separately.
+  warnings.warn("* The `surfinBH` package is not automatically installed due to possible conflicts. If you wish to use its functionalities, it needs to be installed separately.")
+* Warning: The `art` package could not be imported. Please consider installing it locally for best visual renditions. The cause of this not being taken care of automatically by the `pyRing` package is that the `art` package is not deployed on conda, hence the conda-build fails and `art` cannot be listed as a requirement for the `pyRing` package.
+
+
+ 
+                                         @.
+                                        &  @
+                                        @  ,
+                                        (
+                                                       *
+                                            &            @
+                                       #    @        @
+                                       @             .    ,
+                                       *    .             @
+                                                     @
+                                                     ,    &
+                                      (     #             @           @
+                                      *     @                       @   @
+                                      *     &       /
+                                            .       @      #       @     @          *
+*   @  %       *       @       &     @                     %                      @    &          *    @     &    @     @
+                                                    *      *              @      @      @     @
+                                             &                    @                        %
+                                                                 .&        @   @
+                                                   .        @                &
+                                             @                   @
+                                                   @
+                                             *               @  @
+                                                   .            &
+                                                              %&
+                                              *
+                                              .
+                                              @    @
+                                              
+                                               @  .
+                                               /
+                                                 @
+
+* Using pyRing version: `2.7.0`.
+
+
+
+
+####################
+# Input parameters #
+####################
+
+* Reading config file : `/media/yuning/新加卷/Downloads/pyring/EsGB/config_kerr_ParSpec_EsGB_inj.ini`.
+* With sections       : ['input', 'Sampler settings', 'Priors', 'Injection', 'Plot'].
+
+* I'll be running with the following values:
+
+data-H1                    : data/Real_data/GW150914/H-H1_GWOSC_4KHZ_R1-1126259447-32.txt
+data-L1                    : data/Real_data/GW150914/L-L1_GWOSC_4KHZ_R1-1126259447-32.txt
+data-V1                    : 
+ignore-data-filename       : 0
+download-data              : 0
+datalen-download           : 4096.0
+gw-data-find               : 0
+gw-data-type-H1            : 
+gw-data-type-L1            : 
+gw-data-type-V1            : 
+channel-H1                 : GWOSC
+channel-L1                 : GWOSC
+channel-V1                 : GWOSC
+config-file                : /media/yuning/新加卷/Downloads/pyring/EsGB/config_kerr_ParSpec_EsGB_inj.ini
+run-type                   : full
+output                     : /media/yuning/新加卷/Downloads/pyring/outputs/kerr_ParSpec_EsGB_inj
+run-tag                    : 
+screen-output              : 1
+debug                      : 0
+pesummary                  : 0
+trigtime                   : 1126259462.4232266
+detectors                  : H1,L1
+ref-det                    : H1
+sky-frame                  : equatorial
+acf-H1                     : 
+acf-L1                     : 
+acf-V1                     : 
+psd-H1                     : 
+psd-L1                     : 
+psd-V1                     : 
+signal-chunksize           : 2.0
+noise-chunksize            : 2.0
+window-onsource            : 0
+window                     : 1
+alpha-window               : 0.1
+sampling-rate              : 4096.0
+f-min-bp                   : 20.0
+f-max-bp                   : 2038.0
+bandpassing                : 1
+noise-averaging-method     : mean
+fft-acf                    : 1
+acf-simple-norm            : 1
+no-lognorm                 : 0
+truncate                   : 1
+analysis-duration          : 0.1
+analysis-duration-n        : 410
+zero-noise                 : 0
+gaussian-noise             : 
+gaussian-noise-seed        : -1
+gaussian-noise-white-sigma : 1e-21
+chisquare-computation      : 0
+non-stationarity-check     : 0
+maxent-psd                 : 
+PSD-investigation          : 0
+onsource-ACF               : 0
+Dirac-comb                 : 0
+Zeroing-data               : 0
+likelihood-method          : direct-inversion
+split-inner-products       : 0
+injection-parameters       : None
+injection-approximant      : 
+inject-n-ds-modes          : {'s': 0, 'v': 0, 't': 1}
+inject-area-quantization   : 0
+inject-braneworld          : 0
+inject-charge              : 0
+injection-scaling          : 1.0
+injection-T                : 64.0
+template                   : Kerr
+single-mode                : None
+mmrdnp-modes               : [(2, 2, 0), (2, 1, 0), (3, 3, 0), (3, 2, 0), (4, 4, 0), (4, 3, 0)]
+teob-modes                 : [(2, 2)]
+n-ds-modes                 : {'s': 0, 'v': 0, 't': 1}
+ds-ordering                : freq
+kerr-modes                 : [(2, 2, 2, 0), (2, 2, 2, 1)]
+reference-amplitude        : 0.0
+spheroidal                 : 0
+amp-non-prec-sym           : 1
+tail-modes                 : None
+quadratic-modes            : None
+quadratic-linear-prop      : 0
+qnm-fit                    : 1
+coherent-n                 : 0
+max-Kerr-amp-ratio         : 0.0
+TGR-overtones-ordering     : Unordered
+domega-tgr-modes           : [(2, 2, 0)]
+dtau-tgr-modes             : None
+area-quantization          : 0
+braneworld                 : 0
+tau-AQ                     : 0
+prior-reweight             : 
+ParSpec                    : 1
+ParSpec_Dmax_TGR           : 2
+ParSpec_Dmax_charge        : 4
+EsGB                       : 1
+charge                     : 0
+imr-samples                : 
+imr-remnant-fits           : UIB
+downsample-N               : -1
+analysis-duration-n        : 409
+inject-n-ds-modes          : {'t': 1}
+n-ds-modes                 : {'t': 1}
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+warning: Not a git repository. Use --no-index to compare two paths outside a working tree
+usage: git diff --no-index [<options>] <path> <path>
+
+Diff output format options
+    -p, --patch           generate patch
+    -s, --no-patch        suppress diff output
+    -u                    generate patch
+    -U, --unified[=<n>]   generate diffs with <n> lines context
+    -W, --[no-]function-context
+                          generate diffs with <n> lines context
+    --raw                 generate the diff in raw format
+    --patch-with-raw      synonym for '-p --raw'
+    --patch-with-stat     synonym for '-p --stat'
+    --numstat             machine friendly --stat
+    --shortstat           output only the last line of --stat
+    -X, --dirstat[=<param1,param2>...]
+                          output the distribution of relative amount of changes for each sub-directory
+    --cumulative          synonym for --dirstat=cumulative
+    --dirstat-by-file[=<param1,param2>...]
+                          synonym for --dirstat=files,param1,param2...
+    --check               warn if changes introduce conflict markers or whitespace errors
+    --summary             condensed summary such as creations, renames and mode changes
+    --name-only           show only names of changed files
+    --name-status         show only names and status of changed files
+    --stat[=<width>[,<name-width>[,<count>]]]
+                          generate diffstat
+    --stat-width <width>  generate diffstat with a given width
+    --stat-name-width <width>
+                          generate diffstat with a given name width
+    --stat-graph-width <width>
+                          generate diffstat with a given graph width
+    --stat-count <count>  generate diffstat with limited lines
+    --[no-]compact-summary
+                          generate compact summary in diffstat
+    --binary              output a binary diff that can be applied
+    --[no-]full-index     show full pre- and post-image object names on the "index" lines
+    --[no-]color[=<when>] show colored diff
+    --ws-error-highlight <kind>
+                          highlight whitespace errors in the 'context', 'old' or 'new' lines in the diff
+    -z                    do not munge pathnames and use NULs as output field terminators in --raw or --numstat
+    --[no-]abbrev[=<n>]   use <n> digits to display object names
+    --src-prefix <prefix> show the given source prefix instead of "a/"
+    --dst-prefix <prefix> show the given destination prefix instead of "b/"
+    --line-prefix <prefix>
+                          prepend an additional prefix to every line of output
+    --no-prefix           do not show any source or destination prefix
+    --default-prefix      use default prefixes a/ and b/
+    --inter-hunk-context <n>
+                          show context between diff hunks up to the specified number of lines
+    --output-indicator-new <char>
+                          specify the character to indicate a new line instead of '+'
+    --output-indicator-old <char>
+                          specify the character to indicate an old line instead of '-'
+    --output-indicator-context <char>
+                          specify the character to indicate a context instead of ' '
+
+Diff rename options
+    -B, --break-rewrites[=<n>[/<m>]]
+                          break complete rewrite changes into pairs of delete and create
+    -M, --find-renames[=<n>]
+                          detect renames
+    -D, --irreversible-delete
+                          omit the preimage for deletes
+    -C, --find-copies[=<n>]
+                          detect copies
+    --[no-]find-copies-harder
+                          use unmodified files as source to find copies
+    --no-renames          disable rename detection
+    --[no-]rename-empty   use empty blobs as rename source
+    --[no-]follow         continue listing the history of a file beyond renames
+    -l <n>                prevent rename/copy detection if the number of rename/copy targets exceeds given limit
+
+Diff algorithm options
+    --minimal             produce the smallest possible diff
+    -w, --ignore-all-space
+                          ignore whitespace when comparing lines
+    -b, --ignore-space-change
+                          ignore changes in amount of whitespace
+    --ignore-space-at-eol ignore changes in whitespace at EOL
+    --ignore-cr-at-eol    ignore carrier-return at the end of line
+    --ignore-blank-lines  ignore changes whose lines are all blank
+    -I, --[no-]ignore-matching-lines <regex>
+                          ignore changes whose all lines match <regex>
+    --[no-]indent-heuristic
+                          heuristic to shift diff hunk boundaries for easy reading
+    --patience            generate diff using the "patience diff" algorithm
+    --histogram           generate diff using the "histogram diff" algorithm
+    --diff-algorithm <algorithm>
+                          choose a diff algorithm
+    --anchored <text>     generate diff using the "anchored diff" algorithm
+    --word-diff[=<mode>]  show word diff, using <mode> to delimit changed words
+    --word-diff-regex <regex>
+                          use <regex> to decide what a word is
+    --color-words[=<regex>]
+                          equivalent to --word-diff=color --word-diff-regex=<regex>
+    --[no-]color-moved[=<mode>]
+                          moved lines of code are colored differently
+    --[no-]color-moved-ws <mode>
+                          how white spaces are ignored in --color-moved
+
+Other diff options
+    --[no-]relative[=<prefix>]
+                          when run from subdir, exclude changes outside and show relative paths
+    -a, --[no-]text       treat all files as text
+    -R                    swap two inputs, reverse the diff
+    --[no-]exit-code      exit with 1 if there were differences, 0 otherwise
+    --[no-]quiet          disable all output of the program
+    --[no-]ext-diff       allow an external diff helper to be executed
+    --[no-]textconv       run external text conversion filters when comparing binary files
+    --ignore-submodules[=<when>]
+                          ignore changes to submodules in the diff generation
+    --submodule[=<format>]
+                          specify how differences in submodules are shown
+    --ita-invisible-in-index
+                          hide 'git add -N' entries from the index
+    --ita-visible-in-index
+                          treat 'git add -N' entries as real in the index
+    -S <string>           look for differences that change the number of occurrences of the specified string
+    -G <regex>            look for differences that change the number of occurrences of the specified regex
+    --pickaxe-all         show all changes in the changeset with -S or -G
+    --pickaxe-regex       treat <string> in -S as extended POSIX regular expression
+    -O <file>             control the order in which files appear in the output
+    --rotate-to <path>    show the change in the specified path first
+    --skip-to <path>      skip the output to the specified path
+    --find-object <object-id>
+                          look for differences that change the number of occurrences of the specified object
+    --diff-filter [(A|C|D|M|R|T|U|X|B)...[*]]
+                          select files by diff type
+    --output <file>       output to a specific file
+
+gr-time-prior              : 1
+dist-flat-prior            : 1
+mass-ratio-flat-prior      : 0
+ds-amp-flat-prior          : 0
+mf-time-prior              : 68.0
+
+
+
+##########################
+# Setting the start time #
+##########################
+
+Trigtime in H1             : 1126259462.423227
+
+
+
+
+################
+# Data reading #
+################
+
+
+------
+- H1 -
+------
+
+* Warning: The file name is expected to follow GWOSC conventions 'DET-FRAMETYPE-STARTTIME--DATALEN.txt', e.g.: 'H-H1_GWOSC_4_V1-1126259446-32.txt'. See https://www.gw-openscience.org for more infomation. This requirement can be relaxed by activating the 'ignore-data-filename' option.
+
+* Loaded `/media/yuning/新加卷/Downloads/miniconda3/envs/pyring39/lib/python3.9/site-packages/pyRing/data/Real_data/GW150914/H-H1_GWOSC_4KHZ_R1-1126259447-32.txt` starting at `1126259447.0` length 32.0s.
+
+* Bandpassing the raw strain between [20.0, 2038.0] Hz.
+
+* Computing the one-sided PSD with the Welch method for comparison with the standard ACF.
+
+* No ACF was passed. Estimating ACF.
+
+* A Kolmogorov–Smirnov test of whitened data chunks gave 1/318 normality outliers (at 1.0 % significance).
+
+
+------
+- L1 -
+------
+
+* Warning: The file name is expected to follow GWOSC conventions 'DET-FRAMETYPE-STARTTIME--DATALEN.txt', e.g.: 'H-H1_GWOSC_4_V1-1126259446-32.txt'. See https://www.gw-openscience.org for more infomation. This requirement can be relaxed by activating the 'ignore-data-filename' option.
+
+* Loaded `/media/yuning/新加卷/Downloads/miniconda3/envs/pyring39/lib/python3.9/site-packages/pyRing/data/Real_data/GW150914/L-L1_GWOSC_4KHZ_R1-1126259447-32.txt` starting at `1126259447.0` length 32.0s.
+
+* Bandpassing the raw strain between [20.0, 2038.0] Hz.
+
+* Computing the one-sided PSD with the Welch method for comparison with the standard ACF.
+
+* No ACF was passed. Estimating ACF.
+
+* A Kolmogorov–Smirnov test of whitened data chunks gave 4/318 normality outliers (at 1.0 % significance).
+
+
+
+
+########################
+# Model initialisation #
+########################
+
+* Using equatorial sky coordinates.
+
+
+
+
+##########
+# Priors #
+##########
+
+I'll be running with the following prior bounds:
+
+
+-------------
+- Extrinsic -
+-------------
+
+psi          : [0.0, 3.141592653589793]
+
+-------------------------
+- Intrinsic: Kerr model -
+-------------------------
+
+* Running the Kerr model with modes: `[(2, 2, 2, 0), (2, 2, 2, 1)]`.
+
+Mf           : [62.7, 71.7]
+af           : [0.59, 0.73]
+logdistance  : [5.387, 6.32]
+cosiota      : [-1.0, 1.0]
+
+--------------------------
+- Intrinsic: Beyond-Kerr -
+--------------------------
+
+ell          : [0,75]
+
+--------------------
+- Modes amplitudes -
+--------------------
+
+A2220        : [0.0, 50.0]
+A2221        : [0.0, 50.0]
+phi2220      : [0.0, 6.283185307179586]
+phi2221      : [0.0, 6.283185307179586]
+
+---------
+- Fixed -
+---------
+
+ra           : 1.1579
+dec          : -1.1911
+t            : 0.0
+phi          : 0.0
+
+
+
+##########################
+# Sampler initialisation #
+##########################
+
+* I'll be running with the following sampler parameters:
+
+verbose                      : 2
+nlive                        : 1024
+maxmcmc                      : 1024
+poolsize                     : 128
+nthreads                     : 1
+seed                         : 1234
+resume                       : 1
+periodic_checkpoint_interval : 10800
+
+Noise evidence: 38620.292
+
+
+* Whitened plots using the FD PSD are illustrative, and do not correspond to the full TD treatment applied in the analysis.
+
+* Pre-sampling execution time (min): 0.11
+
+
+
+##################
+# Start sampling #
+##################
+
+* Using CPNest version: `0.11.8`.
+
+* The sampling output appears in the `/media/yuning/新加卷/Downloads/pyring/outputs/kerr_ParSpec_EsGB_inj/Nested_sampler/cpnest.log` file.
+
+2025-12-04, 06:38:12 - cpnest.cpnest.CPNest                  : Running with 1 parallel threads
+CPNEST: populate samplers: 100%|████████████| 1024/1024 [00:45<00:00, 22.29it/s]
+CPNEST: populate samplers: 100%|████████████| 1024/1024 [00:45<00:00, 16.44it/s]
+2025-12-04, 08:43:58 - cpnest.sampler.Sampler                : Sampler process 128856: MCMC samples accumulated = 10240
+2025-12-04, 08:43:58 - cpnest.sampler.Sampler                : Sampler process 128856 - mean acceptance 0.113: exiting
+2025-12-04, 08:43:59 - cpnest.NestedSampling.NestedSampler   : Final evidence: 38683.38
+2025-12-04, 08:43:59 - cpnest.NestedSampling.NestedSampler   : Information: 15.23
+2025-12-04, 08:43:59 - cpnest.cpnest.CPNest                  : Saving nested samples in /media/yuning/新加卷/Downloads/pyring/outputs/kerr_ParSpec_EsGB_inj/Nested_sampler/
+2025-12-04, 08:44:01 - cpnest.cpnest.CPNest                  : Saving posterior samples in /media/yuning/新加卷/Downloads/pyring/outputs/kerr_ParSpec_EsGB_inj/Nested_sampler/
+2025-12-04, 08:44:03 - cpnest.nest2pos                       : Computed log_evidences: (38683.37593834806,)
+2025-12-04, 08:44:03 - cpnest.nest2pos                       : Relative weights of input files: [1.0]
+2025-12-04, 08:44:03 - cpnest.nest2pos                       : Relative weights of input files taking into account their length: [1.0]
+2025-12-04, 08:44:03 - cpnest.nest2pos                       : Number of input samples: [22547]
+2025-12-04, 08:44:03 - cpnest.nest2pos                       : Expected number of samples from each input file [4738]
+2025-12-04, 08:44:03 - cpnest.nest2pos                       : Samples produced: 4738
+2025-12-04, 08:44:10 - cpnest.nest2pos                       : Computed log_evidences: (38683.37593834806,)
+2025-12-04, 08:44:10 - cpnest.nest2pos                       : Relative weights of input files: [1.0]
+2025-12-04, 08:44:10 - cpnest.nest2pos                       : Relative weights of input files taking into account their length: [1.0]
+2025-12-04, 08:44:10 - cpnest.nest2pos                       : Number of input samples: [22547]
+2025-12-04, 08:44:10 - cpnest.nest2pos                       : Expected number of samples from each input file [4690]
+2025-12-04, 08:44:10 - cpnest.nest2pos                       : Samples produced: 4690
+
+Signal evidence         : 38683.384
+ln B                    : 63.092
+Estimated SNR from logB : 12.776
+
+* Sampling execution time (min): 29413964.18
+
+
+
+###########################
+# Posterior railing tests #
+###########################
+
+psi          is railing against the lower prior bound.
+psi          is railing against the upper prior bound.
+Mf           is railing against the lower prior bound.
+Mf           is railing against the upper prior bound.
+af           is railing against the lower prior bound.
+af           is railing against the upper prior bound.
+logdistance  is railing against the lower prior bound.
+logdistance  is railing against the upper prior bound.
+cosiota      is railing against the lower prior bound.
+ell          is railing against the lower prior bound.
+ell          is railing against the upper prior bound.
+A2221        is railing against the lower prior bound.
+phi2220      is railing against the lower prior bound.
+phi2220      is railing against the upper prior bound.
+phi2221      is railing against the lower prior bound.
+phi2221      is railing against the upper prior bound.
+
+
+
+###################
+# SNR computation #
+###################
+
+
+Medians:
+
+H1      matched_filter SNR (TD): 9.780
+L1      matched_filter SNR (TD): 7.981
+Network matched_filter SNR (TD): 12.619
+H1      optimal        SNR (TD): 10.107
+L1      optimal        SNR (TD): 7.488
+Network optimal        SNR (TD): 12.617
+
+Percentage SNR loss due to truncation (in maxL sample):
+
+H1      matched_filter: 1.7%
+L1      matched_filter: -1.1%
+H1      optimal       : 2.8%
+L1      optimal       : -3.3%
+
+
+
+####################
+# Plots generation #
+####################
+
+* Skipping sky position plot, since at least one of the sky position parameters was fixed.
+
+* Skipping time plot, since time was fixed.
+
+* A Kolmogorov–Smirnov test of whitened H1 residuals gave 4690/4690 normality outliers (at 1.0 % significance).
+
+* A Kolmogorov–Smirnov test of whitened L1 residuals gave 4690/4690 normality outliers (at 1.0 % significance).
+
+* Fetching the IMR posterior relatively to the PYRING_PREFIX: /media/yuning/新加卷/Downloads/pyring/pyRing/data/Real_data/GW150914/GW150914_LAL_IMRPhenomP_O1_GWOSC_Mf_af_samples.txt.
+
+* To predict the GR spectrum of QNM or final mass and spin, the following parameters will be used:
+
+  Mf: 67.920  (1.832)
+  af: 0.667  (0.027)
+
+Traceback (most recent call last):
+  File "/media/yuning/新加卷/Downloads/miniconda3/envs/pyring39/bin/pyRing", line 7, in <module>
+    sys.exit(main())
+  File "/media/yuning/新加卷/Downloads/miniconda3/envs/pyring39/lib/python3.9/site-packages/pyRing/pyRing.py", line 2206, in main
+    try:                          plots.orientation_corner(x, Config, **input_par)
+  File "/media/yuning/新加卷/Downloads/miniconda3/envs/pyring39/lib/python3.9/site-packages/pyRing/plots.py", line 1564, in orientation_corner
+    truths        = expected_values_orientation,
+UnboundLocalError: local variable 'expected_values_orientation' referenced before assignment
+

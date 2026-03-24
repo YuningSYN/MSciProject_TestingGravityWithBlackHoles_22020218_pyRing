@@ -1,0 +1,2 @@
+# psi_low	psi_up	Mf_low	Mf_up	af_low	af_up	logdistance_low	logdistance_up	cosiota_low	cosiota_up	ell_low	ell_up	A2220_low	A2220_up	A2221_low	A2221_up	phi2220_low	phi2220_up	phi2221_low	phi2221_up	
+1 1 1 1 1 1 1 1 1 0 1 1 0 0 1 0 1 1 1 1

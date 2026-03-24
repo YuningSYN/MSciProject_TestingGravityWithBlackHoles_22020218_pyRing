@@ -1,0 +1,1 @@
+psi	Mf	af	logdistance	cosiota	ell	A2220	A2221	phi2220	phi2221	logL
