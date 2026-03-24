@@ -1,0 +1,339 @@
+* Using pyRing version: `2.7.0`.
+
+
+
+
+####################
+# [[38;5;39mInput parameters[0m #
+####################
+
+* Reading config file : `/media/yuning/新加卷/Downloads/pyring/EsGB/test_kerr_nonGR_EsGB_inj.ini`.
+* With sections       : ['input', 'Sampler settings', 'Priors', 'Injection', 'Plot'].
+
+* I'll be running with the following values:
+
+data-H1                    : 
+data-L1                    : 
+data-V1                    : 
+ignore-data-filename       : 0
+download-data              : 0
+datalen-download           : 4096.0
+gw-data-find               : 0
+gw-data-type-H1            : 
+gw-data-type-L1            : 
+gw-data-type-V1            : 
+channel-H1                 : GWOSC
+channel-L1                 : GWOSC
+channel-V1                 : GWOSC
+config-file                : /media/yuning/新加卷/Downloads/pyring/EsGB/test_kerr_nonGR_EsGB_inj.ini
+run-type                   : full
+output                     : /media/yuning/新加卷/Downloads/pyring/outputs/test_kerr_nGR_EsGB_inj
+run-tag                    : 
+screen-output              : 0
+debug                      : 0
+pesummary                  : 0
+trigtime                   : 1186741851.5268
+detectors                  : H1,L1,V1
+ref-det                    : H1
+sky-frame                  : equatorial
+acf-H1                     : 
+acf-L1                     : 
+acf-V1                     : 
+psd-H1                     : /media/yuning/新加卷/Downloads/pyring/pyRing/data/PSDs/ASD_LIGO-P1200087-v18-aLIGO_DESIGN.txt
+psd-L1                     : /media/yuning/新加卷/Downloads/pyring/pyRing/data/PSDs/ASD_LIGO-P1200087-v18-aLIGO_DESIGN.txt
+psd-V1                     : /media/yuning/新加卷/Downloads/pyring/pyRing/data/PSDs/ASD_LIGO-P1200087-v18-AdV_DESIGN.txt
+signal-chunksize           : 1.0
+noise-chunksize            : 1.0
+window-onsource            : 0
+window                     : 1
+alpha-window               : 0.1
+sampling-rate              : 4096.0
+f-min-bp                   : 20.0
+f-max-bp                   : 2038.0
+bandpassing                : 1
+noise-averaging-method     : mean
+fft-acf                    : 1
+acf-simple-norm            : 1
+no-lognorm                 : 0
+truncate                   : 1
+analysis-duration          : 0.1
+analysis-duration-n        : 410
+zero-noise                 : 1
+gaussian-noise             : coloured-FD
+gaussian-noise-seed        : 1
+gaussian-noise-white-sigma : 1e-21
+chisquare-computation      : 0
+non-stationarity-check     : 0
+maxent-psd                 : 
+PSD-investigation          : 0
+onsource-ACF               : 0
+Dirac-comb                 : 0
+Zeroing-data               : 0
+likelihood-method          : direct-inversion
+split-inner-products       : 0
+injection-parameters       : None
+injection-approximant      : Kerr
+inject-n-ds-modes          : {'s': 0, 'v': 0, 't': 1}
+inject-area-quantization   : 0
+inject-braneworld          : 0
+inject-charge              : 0
+injection-scaling          : 1.0
+injection-T                : 64.0
+template                   : Kerr
+single-mode                : None
+mmrdnp-modes               : [(2, 2, 0), (2, 1, 0), (3, 3, 0), (3, 2, 0), (4, 4, 0), (4, 3, 0)]
+teob-modes                 : [(2, 2)]
+n-ds-modes                 : {'s': 0, 'v': 0, 't': 1}
+ds-ordering                : freq
+kerr-modes                 : [(2, 2, 2, 0), (2, 2, 2, 1)]
+reference-amplitude        : 0.0
+spheroidal                 : 0
+amp-non-prec-sym           : 0
+tail-modes                 : None
+quadratic-modes            : None
+quadratic-linear-prop      : 0
+qnm-fit                    : 1
+coherent-n                 : 0
+max-Kerr-amp-ratio         : 0.0
+TGR-overtones-ordering     : Unordered
+domega-tgr-modes           : [(2, 2, 0)]
+dtau-tgr-modes             : None
+area-quantization          : 0
+braneworld                 : 0
+tau-AQ                     : 0
+prior-reweight             : 
+ParSpec                    : 0
+ParSpec_Dmax_TGR           : 2
+ParSpec_Dmax_charge        : 0
+EsGB                       : 1
+charge                     : 0
+imr-samples                : 
+imr-remnant-fits           : UIB
+downsample-N               : -1
+analysis-duration-n        : 409
+inject-n-ds-modes          : {'t': 1}
+n-ds-modes                 : {'t': 1}
+gr-time-prior              : 1
+dist-flat-prior            : 0
+mass-ratio-flat-prior      : 0
+ds-amp-flat-prior          : 0
+mf-time-prior              : 0.0
+
+
+
+##################
+# [[38;5;39mKerr injection[0m #
+##################
+
+* I'll be injecting the following parameters:
+
+* Warning: Imposing non-precessing Kerr amplitude symmetry for both injection and recovery (to be relaxed in future versions).
+
+ra                         : 1.1578
+dec                        : -1.191
+psi                        : 1.2
+cos_altitude               : 0.0
+azimuth                    : 0.0
+t0                         : 0.0
+Mf                         : 67.0
+af                         : 0.67
+logdistance                : 6.6
+cosiota                    : 1.0
+phi                        : 0.0
+alpha                      : 25.132741228718345
+beta                       : -0.4
+Q                          : 0.0
+kerr-amplitudes            : {(2, 2, 2, 0): (1+0j), (2, 2, 2, 1): (10+0j)}
+kerr-tail-amplitudes       : None
+kerr-tail-phases           : None
+kerr-tail-exponents        : None
+kerr-quad-amplitudes       : None
+kerr-quad-phases           : None
+kerr-domegas               : {(2, 2, 2, 0): 0.5, (2, 2, 2, 1): 0.0}
+kerr-dtaus                 : {(2, 2, 2, 0): 0.0}
+kerr-tail-parameters       : None
+
+
+
+##########################
+# [[38;5;39mSetting the start time[0m #
+##########################
+
+Trigtime in H1             : 1186741851.526800
+
+
+
+
+################
+# [[38;5;39mData reading[0m #
+################
+
+
+------
+- [[38;5;39mH1[0m -
+------
+
+* Generating coloured gaussian noise with zero mean and PSD given by `/media/yuning/新加卷/Downloads/pyring/pyRing/data/PSDs/ASD_LIGO-P1200087-v18-aLIGO_DESIGN.txt`.
+
+* Warning: a file containing the `ASD` word in the name was passed, thus the values contained in the file are being squared to compute the PSD.
+
+* Interpolating the PSD passed in input on the frequency axis defined by the selected time segment, using `scipy.interpolate.interp1d`. The interpolation is using the `fill_value='extrapolate' and `bounds_error=False` methods to treat the boundaries.`
+
+* Generating the noise in frequency domain in the interval [11.0, 4096.0] Hz. This interval will later be shrinked according to bandpassing options.
+
+* Bandpassing the raw strain between [20.0, 2038.0] Hz.
+
+* Computing the one-sided PSD with the Welch method for comparison with the standard ACF.
+
+* Although an injection was selected, the ACF is being computed from the strain.
+
+* A Kolmogorov–Smirnov test of whitened data chunks gave 3/638 normality outliers (at 1.0 % significance).
+
+* Injecting the `Kerr` waveform model in the H1 detector.
+
+* Zero noise injection selected.
+
+
+------
+- [[38;5;39mL1[0m -
+------
+
+* Generating coloured gaussian noise with zero mean and PSD given by `/media/yuning/新加卷/Downloads/pyring/pyRing/data/PSDs/ASD_LIGO-P1200087-v18-aLIGO_DESIGN.txt`.
+
+* Warning: a file containing the `ASD` word in the name was passed, thus the values contained in the file are being squared to compute the PSD.
+
+* Interpolating the PSD passed in input on the frequency axis defined by the selected time segment, using `scipy.interpolate.interp1d`. The interpolation is using the `fill_value='extrapolate' and `bounds_error=False` methods to treat the boundaries.`
+
+* Generating the noise in frequency domain in the interval [11.0, 4096.0] Hz. This interval will later be shrinked according to bandpassing options.
+
+* Bandpassing the raw strain between [20.0, 2038.0] Hz.
+
+* Computing the one-sided PSD with the Welch method for comparison with the standard ACF.
+
+* Although an injection was selected, the ACF is being computed from the strain.
+
+* A Kolmogorov–Smirnov test of whitened data chunks gave 3/638 normality outliers (at 1.0 % significance).
+
+* Injecting the `Kerr` waveform model in the L1 detector.
+
+* Zero noise injection selected.
+
+
+------
+- [[38;5;39mV1[0m -
+------
+
+* Generating coloured gaussian noise with zero mean and PSD given by `/media/yuning/新加卷/Downloads/pyring/pyRing/data/PSDs/ASD_LIGO-P1200087-v18-AdV_DESIGN.txt`.
+
+* Warning: a file containing the `ASD` word in the name was passed, thus the values contained in the file are being squared to compute the PSD.
+
+* Interpolating the PSD passed in input on the frequency axis defined by the selected time segment, using `scipy.interpolate.interp1d`. The interpolation is using the `fill_value='extrapolate' and `bounds_error=False` methods to treat the boundaries.`
+
+* Generating the noise in frequency domain in the interval [11.0, 4096.0] Hz. This interval will later be shrinked according to bandpassing options.
+
+* Bandpassing the raw strain between [20.0, 2038.0] Hz.
+
+* Computing the one-sided PSD with the Welch method for comparison with the standard ACF.
+
+* Although an injection was selected, the ACF is being computed from the strain.
+
+* A Kolmogorov–Smirnov test of whitened data chunks gave 2/638 normality outliers (at 1.0 % significance).
+
+* Injecting the `Kerr` waveform model in the V1 detector.
+
+* Zero noise injection selected.
+
+
+
+
+########################
+# [[38;5;39mModel initialisation[0m #
+########################
+
+* Using equatorial sky coordinates.
+
+
+
+
+##########
+# [[38;5;39mPriors[0m #
+##########
+
+I'll be running with the following prior bounds:
+
+
+-------------
+- [[38;5;39mExtrinsic[0m -
+-------------
+
+psi          : [0.0, 3.141592653589793]
+
+-------------------------
+- [[38;5;39mIntrinsic: Kerr model[0m -
+-------------------------
+
+* Running the Kerr model with modes: `[(2, 2, 2, 0), (2, 2, 2, 1)]`.
+
+Mf           : [10.0, 500.0]
+af           : [0.0, 0.99]
+
+--------------------------
+- [[38;5;39mIntrinsic: Beyond-Kerr[0m -
+--------------------------
+
+domega_220   : [-1.0,1.0]
+
+--------------------
+- [[38;5;39mModes amplitudes[0m -
+--------------------
+
+A2220        : [0.0, 50.0]
+A2221        : [0.0, 50.0]
+phi2220      : [0.0, 6.283185307179586]
+phi2221      : [0.0, 6.283185307179586]
+
+---------
+- [[38;5;39mFixed[0m -
+---------
+
+ra           : 1.1578
+dec          : -1.191
+t            : 0.0
+logdistance  : 6.6
+cosiota      : 1.0
+phi          : 0.0
+
+
+
+##########################
+# [[38;5;39mSampler initialisation[0m #
+##########################
+
+* I'll be running with the following sampler parameters:
+
+verbose                      : 2
+nlive                        : 1024
+maxmcmc                      : 1024
+poolsize                     : 128
+nthreads                     : 1
+seed                         : 1234
+resume                       : 1
+periodic_checkpoint_interval : 10800
+
+Noise evidence: 44314.354
+
+
+* Whitened plots using the FD PSD are illustrative, and do not correspond to the full TD treatment applied in the analysis.
+
+* Pre-sampling execution time (min): 2.17
+
+
+
+##################
+# [[38;5;39mStart sampling[0m #
+##################
+
+* Using CPNest version: `0.11.8`.
+
+* The sampling output appears in the `/media/yuning/新加卷/Downloads/pyring/outputs/test_kerr_nGR_EsGB_inj/Nested_sampler/cpnest.log` file.
+

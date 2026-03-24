@@ -1,0 +1,370 @@
+/media/yuning/新加卷/Downloads/miniconda3/envs/pyring39/lib/python3.9/site-packages/pyRing/pyRing.py:705: UserWarning: Einstein-scalar-Gauss-Bonnet option is currently only compatible with p=4. Forcing `ParSpec_Dmax_charge` = 4.
+  warnings.warn("Einstein-scalar-Gauss-Bonnet option is currently only compatible with p=4. Forcing `ParSpec_Dmax_charge` = 4.")
+
+CPNEST: populate samplers:   0%|          | 0/1024 [00:00<?, ?it/s][ASMPLR 0 init draw:   0%|          | 0/128 [00:00<?, ?it/s]SMPLR 0 init draw:  13%|█▎        | 17/128 [00:00<00:00, 164.53it/s]SMPLR 0 init draw:  28%|██▊       | 36/128 [00:00<00:00, 174.62it/s]SMPLR 0 init draw:  42%|████▏     | 54/128 [00:00<00:00, 174.62it/s]SMPLR 0 init draw:  56%|█████▋    | 72/128 [00:00<00:00, 176.37it/s]SMPLR 0 init draw:  71%|███████   | 91/128 [00:00<00:00, 178.72it/s]SMPLR 0 init draw:  85%|████████▌ | 109/128 [00:00<00:00, 171.11it/s]                                                                     SMPLR 0 init evolve:   0%|          | 0/128 [00:00<?, ?it/s]SMPLR 0 init evolve:   2%|▏         | 2/128 [00:00<00:12, 10.01it/s]SMPLR 0 init evolve:   3%|▎         | 4/128 [00:00<00:13,  9.38it/s]SMPLR 0 init evolve:   4%|▍         | 5/128 [00:00<00:13,  9.10it/s]SMPLR 0 init evolve:   5%|▌         | 7/128 [00:00<00:10, 11.93it/s]SMPLR 0 init evolve:   7%|▋         | 9/128 [00:00<00:08, 13.78it/s]SMPLR 0 init evolve:   9%|▊         | 11/128 [00:00<00:07, 14.74it/s]SMPLR 0 init evolve:  12%|█▏        | 15/128 [00:01<00:05, 19.29it/s]SMPLR 0 init evolve:  14%|█▍        | 18/128 [00:01<00:05, 21.46it/s]SMPLR 0 init evolve:  16%|█▋        | 21/128 [00:01<00:04, 21.67it/s]SMPLR 0 init evolve:  19%|█▉        | 24/128 [00:01<00:04, 22.66it/s]SMPLR 0 init evolve:  22%|██▏       | 28/128 [00:01<00:03, 26.61it/s]SMPLR 0 init evolve:  25%|██▌       | 32/128 [00:01<00:03, 28.93it/s]SMPLR 0 init evolve:  28%|██▊       | 36/128 [00:01<00:03, 30.56it/s]SMPLR 0 init evolve:  32%|███▏      | 41/128 [00:01<00:02, 35.27it/s]SMPLR 0 init evolve:  35%|███▌      | 45/128 [00:01<00:02, 36.44it/s]SMPLR 0 init evolve:  39%|███▉      | 50/128 [00:02<00:01, 40.06it/s]SMPLR 0 init evolve:  44%|████▍     | 56/128 [00:02<00:01, 45.34it/s]SMPLR 0 init evolve:  48%|████▊     | 61/128 [00:02<00:01, 46.33it/s]SMPLR 0 init evolve:  52%|█████▏    | 67/128 [00:02<00:01, 49.17it/s]SMPLR 0 init evolve:  56%|█████▋    | 72/128 [00:02<00:01, 47.83it/s]SMPLR 0 init evolve:  61%|██████    | 78/128 [00:02<00:01, 49.96it/s]SMPLR 0 init evolve:  67%|██████▋   | 86/128 [00:02<00:00, 57.56it/s]SMPLR 0 init evolve:  73%|███████▎  | 93/128 [00:02<00:00, 58.58it/s]SMPLR 0 init evolve:  79%|███████▉  | 101/128 [00:02<00:00, 63.02it/s]SMPLR 0 init evolve:  86%|████████▌ | 110/128 [00:03<00:00, 70.39it/s]SMPLR 0 init evolve:  92%|█████████▏| 118/128 [00:03<00:00, 67.99it/s]SMPLR 0 init evolve:  98%|█████████▊| 125/128 [00:03<00:00, 68.18it/s]                                                                      
+CPNEST: populate samplers:   0%|          | 1/1024 [00:04<1:08:28,  4.02s/it][A
+CPNEST: populate samplers:   1%|          | 6/1024 [00:04<08:42,  1.95it/s]  [A
+CPNEST: populate samplers:   1%|▏         | 14/1024 [00:04<03:01,  5.56it/s][A
+CPNEST: populate samplers:   2%|▏         | 21/1024 [00:04<01:45,  9.50it/s][A
+CPNEST: populate samplers:   3%|▎         | 28/1024 [00:04<01:09, 14.25it/s][A
+CPNEST: populate samplers:   4%|▎         | 36/1024 [00:04<00:47, 20.63it/s][A
+CPNEST: populate samplers:   4%|▍         | 43/1024 [00:04<00:36, 26.64it/s][A
+CPNEST: populate samplers:   5%|▍         | 50/1024 [00:04<00:30, 32.26it/s][A
+CPNEST: populate samplers:   6%|▌         | 57/1024 [00:04<00:26, 36.47it/s][A
+CPNEST: populate samplers:   6%|▌         | 63/1024 [00:05<00:26, 36.46it/s][A
+CPNEST: populate samplers:   7%|▋         | 69/1024 [00:05<00:25, 38.10it/s][A
+CPNEST: populate samplers:   7%|▋         | 74/1024 [00:05<00:28, 33.00it/s][A
+CPNEST: populate samplers:   8%|▊         | 79/1024 [00:05<00:39, 23.86it/s][A
+CPNEST: populate samplers:   8%|▊         | 83/1024 [00:06<01:18, 11.98it/s][A
+CPNEST: populate samplers:   8%|▊         | 86/1024 [00:07<01:40,  9.32it/s][A
+CPNEST: populate samplers:   9%|▊         | 88/1024 [00:07<01:46,  8.75it/s][A
+CPNEST: populate samplers:   9%|▉         | 90/1024 [00:07<01:53,  8.24it/s][A
+CPNEST: populate samplers:   9%|▉         | 92/1024 [00:08<01:54,  8.13it/s][A
+CPNEST: populate samplers:   9%|▉         | 94/1024 [00:08<01:54,  8.15it/s][A
+CPNEST: populate samplers:   9%|▉         | 96/1024 [00:08<01:57,  7.93it/s][A
+CPNEST: populate samplers:   9%|▉         | 97/1024 [00:08<02:01,  7.61it/s][A
+CPNEST: populate samplers:  10%|▉         | 98/1024 [00:08<02:01,  7.62it/s][A
+CPNEST: populate samplers:  10%|▉         | 99/1024 [00:09<02:16,  6.79it/s][A
+CPNEST: populate samplers:  10%|▉         | 100/1024 [00:09<02:12,  6.96it/s][A
+CPNEST: populate samplers:  10%|▉         | 101/1024 [00:09<02:02,  7.51it/s][A
+CPNEST: populate samplers:  10%|▉         | 102/1024 [00:09<01:59,  7.68it/s][A
+CPNEST: populate samplers:  10%|█         | 103/1024 [00:09<01:52,  8.18it/s][A
+CPNEST: populate samplers:  10%|█         | 104/1024 [00:09<01:46,  8.61it/s][A
+CPNEST: populate samplers:  10%|█         | 105/1024 [00:09<01:52,  8.13it/s][A
+CPNEST: populate samplers:  10%|█         | 107/1024 [00:10<01:29, 10.20it/s][A
+CPNEST: populate samplers:  11%|█         | 109/1024 [00:10<01:19, 11.57it/s][A
+CPNEST: populate samplers:  11%|█         | 111/1024 [00:10<01:14, 12.30it/s][A
+CPNEST: populate samplers:  11%|█         | 113/1024 [00:10<01:20, 11.27it/s][A
+CPNEST: populate samplers:  11%|█         | 115/1024 [00:10<01:21, 11.18it/s][A
+CPNEST: populate samplers:  11%|█▏        | 117/1024 [00:10<01:18, 11.62it/s][A
+CPNEST: populate samplers:  12%|█▏        | 119/1024 [00:10<01:07, 13.36it/s][A
+CPNEST: populate samplers:  12%|█▏        | 122/1024 [00:11<00:56, 15.97it/s][A
+CPNEST: populate samplers:  12%|█▏        | 126/1024 [00:11<00:46, 19.33it/s][A
+CPNEST: populate samplers:  12%|█▎        | 128/1024 [00:11<00:53, 16.80it/s][A
+CPNEST: populate samplers:  13%|█▎        | 130/1024 [00:11<00:51, 17.36it/s][A
+CPNEST: populate samplers:  13%|█▎        | 132/1024 [00:11<00:50, 17.62it/s][A
+CPNEST: populate samplers:  13%|█▎        | 134/1024 [00:11<00:53, 16.70it/s][A
+CPNEST: populate samplers:  13%|█▎        | 136/1024 [00:11<00:51, 17.25it/s][A
+CPNEST: populate samplers:  13%|█▎        | 138/1024 [00:11<00:53, 16.71it/s][A
+CPNEST: populate samplers:  14%|█▎        | 140/1024 [00:12<00:51, 17.32it/s][A
+CPNEST: populate samplers:  14%|█▍        | 142/1024 [00:12<01:12, 12.10it/s][A
+CPNEST: populate samplers:  14%|█▍        | 145/1024 [00:12<01:02, 14.02it/s][A
+CPNEST: populate samplers:  14%|█▍        | 147/1024 [00:12<01:04, 13.58it/s][A
+CPNEST: populate samplers:  15%|█▍        | 149/1024 [00:12<01:02, 13.91it/s][A
+CPNEST: populate samplers:  15%|█▍        | 151/1024 [00:12<01:02, 14.05it/s][A
+CPNEST: populate samplers:  15%|█▍        | 153/1024 [00:13<01:03, 13.68it/s][A
+CPNEST: populate samplers:  15%|█▌        | 155/1024 [00:13<00:58, 14.74it/s][A
+CPNEST: populate samplers:  15%|█▌        | 157/1024 [00:13<01:06, 13.02it/s][A
+CPNEST: populate samplers:  16%|█▌        | 159/1024 [00:13<01:10, 12.20it/s][A
+CPNEST: populate samplers:  16%|█▌        | 161/1024 [00:13<01:07, 12.72it/s][A
+CPNEST: populate samplers:  16%|█▌        | 165/1024 [00:13<00:46, 18.51it/s][A
+CPNEST: populate samplers:  17%|█▋        | 170/1024 [00:13<00:33, 25.25it/s][A
+CPNEST: populate samplers:  17%|█▋        | 176/1024 [00:14<00:25, 33.50it/s][A
+CPNEST: populate samplers:  18%|█▊        | 181/1024 [00:14<00:22, 37.61it/s][A
+CPNEST: populate samplers:  18%|█▊        | 186/1024 [00:14<00:21, 39.90it/s][A
+CPNEST: populate samplers:  19%|█▉        | 192/1024 [00:14<00:18, 43.86it/s][A
+CPNEST: populate samplers:  19%|█▉        | 197/1024 [00:14<00:18, 44.11it/s][A
+CPNEST: populate samplers:  20%|█▉        | 202/1024 [00:14<00:20, 40.53it/s][A
+CPNEST: populate samplers:  20%|██        | 207/1024 [00:14<00:26, 31.41it/s][A
+CPNEST: populate samplers:  21%|██        | 211/1024 [00:15<00:37, 21.85it/s][A
+CPNEST: populate samplers:  21%|██        | 214/1024 [00:15<00:47, 17.05it/s][A
+CPNEST: populate samplers:  21%|██        | 217/1024 [00:15<01:00, 13.25it/s][A
+CPNEST: populate samplers:  21%|██▏       | 219/1024 [00:16<01:03, 12.73it/s][A
+CPNEST: populate samplers:  22%|██▏       | 221/1024 [00:16<00:59, 13.46it/s][A
+CPNEST: populate samplers:  22%|██▏       | 223/1024 [00:16<01:03, 12.64it/s][A
+CPNEST: populate samplers:  22%|██▏       | 225/1024 [00:16<01:00, 13.30it/s][A
+CPNEST: populate samplers:  22%|██▏       | 228/1024 [00:16<00:57, 13.94it/s][A
+CPNEST: populate samplers:  22%|██▏       | 230/1024 [00:16<01:00, 13.23it/s][A
+CPNEST: populate samplers:  23%|██▎       | 233/1024 [00:17<00:54, 14.60it/s][A
+CPNEST: populate samplers:  23%|██▎       | 235/1024 [00:17<00:57, 13.66it/s][A
+CPNEST: populate samplers:  23%|██▎       | 237/1024 [00:17<00:56, 13.86it/s][A
+CPNEST: populate samplers:  23%|██▎       | 239/1024 [00:17<01:00, 12.93it/s][A
+CPNEST: populate samplers:  24%|██▎       | 241/1024 [00:17<01:03, 12.32it/s][A
+CPNEST: populate samplers:  24%|██▍       | 244/1024 [00:17<00:49, 15.74it/s][A
+CPNEST: populate samplers:  24%|██▍       | 247/1024 [00:18<00:41, 18.69it/s][A
+CPNEST: populate samplers:  24%|██▍       | 250/1024 [00:18<00:39, 19.37it/s][A
+CPNEST: populate samplers:  25%|██▍       | 253/1024 [00:18<00:39, 19.64it/s][A
+CPNEST: populate samplers:  25%|██▌       | 256/1024 [00:18<00:37, 20.35it/s][A
+CPNEST: populate samplers:  25%|██▌       | 259/1024 [00:18<00:39, 19.50it/s][A
+CPNEST: populate samplers:  26%|██▌       | 263/1024 [00:18<00:33, 23.00it/s][A
+CPNEST: populate samplers:  26%|██▌       | 266/1024 [00:18<00:35, 21.08it/s][A
+CPNEST: populate samplers:  26%|██▋       | 269/1024 [00:19<00:44, 16.91it/s][A
+CPNEST: populate samplers:  26%|██▋       | 271/1024 [00:19<00:48, 15.51it/s][A
+CPNEST: populate samplers:  27%|██▋       | 273/1024 [00:19<00:47, 15.79it/s][A
+CPNEST: populate samplers:  27%|██▋       | 276/1024 [00:19<00:46, 16.12it/s][A
+CPNEST: populate samplers:  27%|██▋       | 279/1024 [00:19<00:44, 16.70it/s][A
+CPNEST: populate samplers:  27%|██▋       | 281/1024 [00:19<00:48, 15.31it/s][A
+CPNEST: populate samplers:  28%|██▊       | 284/1024 [00:20<00:42, 17.40it/s][A
+CPNEST: populate samplers:  28%|██▊       | 286/1024 [00:20<00:48, 15.12it/s][A
+CPNEST: populate samplers:  28%|██▊       | 288/1024 [00:20<00:47, 15.52it/s][A
+CPNEST: populate samplers:  28%|██▊       | 290/1024 [00:20<00:46, 15.81it/s][A
+CPNEST: populate samplers:  29%|██▊       | 292/1024 [00:20<00:50, 14.48it/s][A
+CPNEST: populate samplers:  29%|██▉       | 295/1024 [00:20<00:44, 16.27it/s][A
+CPNEST: populate samplers:  29%|██▉       | 298/1024 [00:20<00:37, 19.25it/s][A
+CPNEST: populate samplers:  29%|██▉       | 301/1024 [00:21<00:41, 17.30it/s][A
+CPNEST: populate samplers:  30%|██▉       | 304/1024 [00:21<00:37, 19.26it/s][A
+CPNEST: populate samplers:  30%|███       | 308/1024 [00:21<00:31, 22.58it/s][A
+CPNEST: populate samplers:  30%|███       | 311/1024 [00:21<00:29, 24.04it/s][A
+CPNEST: populate samplers:  31%|███       | 315/1024 [00:21<00:26, 26.88it/s][A
+CPNEST: populate samplers:  31%|███▏      | 320/1024 [00:21<00:24, 28.77it/s][A
+CPNEST: populate samplers:  32%|███▏      | 324/1024 [00:21<00:23, 30.43it/s][A
+CPNEST: populate samplers:  32%|███▏      | 328/1024 [00:21<00:21, 32.76it/s][A
+CPNEST: populate samplers:  32%|███▏      | 332/1024 [00:22<00:20, 33.26it/s][A
+CPNEST: populate samplers:  33%|███▎      | 336/1024 [00:22<00:21, 31.32it/s][A
+CPNEST: populate samplers:  33%|███▎      | 340/1024 [00:22<00:22, 30.74it/s][A
+CPNEST: populate samplers:  34%|███▎      | 344/1024 [00:22<00:22, 29.61it/s][A
+CPNEST: populate samplers:  34%|███▍      | 349/1024 [00:22<00:20, 33.51it/s][A
+CPNEST: populate samplers:  35%|███▍      | 355/1024 [00:22<00:17, 38.92it/s][A
+CPNEST: populate samplers:  35%|███▌      | 361/1024 [00:22<00:15, 43.00it/s][A
+CPNEST: populate samplers:  36%|███▌      | 366/1024 [00:22<00:14, 44.81it/s][A
+CPNEST: populate samplers:  36%|███▌      | 371/1024 [00:23<00:14, 45.47it/s][A
+CPNEST: populate samplers:  37%|███▋      | 376/1024 [00:23<00:15, 41.06it/s][A
+CPNEST: populate samplers:  37%|███▋      | 382/1024 [00:23<00:14, 44.49it/s][A
+CPNEST: populate samplers:  38%|███▊      | 387/1024 [00:23<00:14, 43.67it/s][A
+CPNEST: populate samplers:  38%|███▊      | 393/1024 [00:23<00:13, 47.57it/s][A
+CPNEST: populate samplers:  39%|███▉      | 398/1024 [00:23<00:13, 47.43it/s][A
+CPNEST: populate samplers:  39%|███▉      | 403/1024 [00:23<00:16, 36.68it/s][A
+CPNEST: populate samplers:  40%|███▉      | 408/1024 [00:24<00:17, 34.74it/s][A
+CPNEST: populate samplers:  40%|████      | 412/1024 [00:24<00:17, 34.07it/s][A
+CPNEST: populate samplers:  41%|████      | 417/1024 [00:24<00:16, 37.35it/s][A
+CPNEST: populate samplers:  41%|████      | 421/1024 [00:24<00:16, 36.36it/s][A
+CPNEST: populate samplers:  42%|████▏     | 425/1024 [00:24<00:18, 32.94it/s][A
+CPNEST: populate samplers:  42%|████▏     | 429/1024 [00:24<00:17, 33.62it/s][A
+CPNEST: populate samplers:  42%|████▏     | 433/1024 [00:24<00:17, 34.07it/s][A
+CPNEST: populate samplers:  43%|████▎     | 437/1024 [00:24<00:19, 29.37it/s][A
+CPNEST: populate samplers:  43%|████▎     | 441/1024 [00:25<00:26, 21.88it/s][A
+CPNEST: populate samplers:  43%|████▎     | 444/1024 [00:25<00:37, 15.59it/s][A
+CPNEST: populate samplers:  44%|████▎     | 447/1024 [00:25<00:42, 13.52it/s][A
+CPNEST: populate samplers:  44%|████▍     | 449/1024 [00:26<00:41, 13.97it/s][A
+CPNEST: populate samplers:  44%|████▍     | 451/1024 [00:26<00:48, 11.86it/s][A
+CPNEST: populate samplers:  44%|████▍     | 453/1024 [00:26<00:52, 10.90it/s][A
+CPNEST: populate samplers:  44%|████▍     | 455/1024 [00:26<00:59,  9.59it/s][A
+CPNEST: populate samplers:  45%|████▍     | 457/1024 [00:27<01:01,  9.23it/s][A
+CPNEST: populate samplers:  45%|████▍     | 459/1024 [00:27<01:03,  8.84it/s][A
+CPNEST: populate samplers:  45%|████▍     | 460/1024 [00:27<01:08,  8.22it/s][A
+CPNEST: populate samplers:  45%|████▌     | 461/1024 [00:27<01:11,  7.88it/s][A
+CPNEST: populate samplers:  45%|████▌     | 462/1024 [00:27<01:18,  7.17it/s][A
+CPNEST: populate samplers:  45%|████▌     | 463/1024 [00:27<01:21,  6.87it/s][A
+CPNEST: populate samplers:  45%|████▌     | 464/1024 [00:28<01:17,  7.20it/s][A
+CPNEST: populate samplers:  45%|████▌     | 465/1024 [00:28<01:21,  6.85it/s][A
+CPNEST: populate samplers:  46%|████▌     | 466/1024 [00:28<01:19,  7.05it/s][A
+CPNEST: populate samplers:  46%|████▌     | 467/1024 [00:28<01:25,  6.53it/s][A
+CPNEST: populate samplers:  46%|████▌     | 468/1024 [00:28<01:21,  6.82it/s][A
+CPNEST: populate samplers:  46%|████▌     | 469/1024 [00:28<01:24,  6.60it/s][A
+CPNEST: populate samplers:  46%|████▌     | 470/1024 [00:28<01:19,  7.00it/s][A
+CPNEST: populate samplers:  46%|████▌     | 471/1024 [00:29<01:18,  7.03it/s][A
+CPNEST: populate samplers:  46%|████▌     | 472/1024 [00:29<01:14,  7.41it/s][A
+CPNEST: populate samplers:  46%|████▋     | 474/1024 [00:29<00:54, 10.07it/s][A
+CPNEST: populate samplers:  46%|████▋     | 476/1024 [00:29<00:47, 11.51it/s][A
+CPNEST: populate samplers:  47%|████▋     | 480/1024 [00:29<00:30, 17.79it/s][A
+CPNEST: populate samplers:  47%|████▋     | 483/1024 [00:29<00:26, 20.34it/s][A
+CPNEST: populate samplers:  47%|████▋     | 486/1024 [00:29<00:24, 22.27it/s][A
+CPNEST: populate samplers:  48%|████▊     | 489/1024 [00:30<00:30, 17.37it/s][A
+CPNEST: populate samplers:  48%|████▊     | 491/1024 [00:30<00:49, 10.82it/s][A
+CPNEST: populate samplers:  48%|████▊     | 493/1024 [00:30<01:07,  7.83it/s][A
+CPNEST: populate samplers:  48%|████▊     | 495/1024 [00:31<01:14,  7.09it/s][A
+CPNEST: populate samplers:  49%|████▊     | 497/1024 [00:31<01:24,  6.24it/s][A
+CPNEST: populate samplers:  49%|████▊     | 498/1024 [00:31<01:26,  6.08it/s][A
+CPNEST: populate samplers:  49%|████▊     | 499/1024 [00:32<01:25,  6.11it/s][A
+CPNEST: populate samplers:  49%|████▉     | 500/1024 [00:32<01:27,  5.97it/s][A
+CPNEST: populate samplers:  49%|████▉     | 501/1024 [00:32<01:26,  6.05it/s][A
+CPNEST: populate samplers:  49%|████▉     | 502/1024 [00:32<01:23,  6.26it/s][A
+CPNEST: populate samplers:  49%|████▉     | 505/1024 [00:32<00:50, 10.38it/s][A
+CPNEST: populate samplers:  50%|████▉     | 508/1024 [00:32<00:37, 13.67it/s][A
+CPNEST: populate samplers:  50%|█████     | 513/1024 [00:32<00:24, 21.11it/s][A
+CPNEST: populate samplers:  51%|█████     | 518/1024 [00:33<00:19, 26.61it/s][A
+CPNEST: populate samplers:  51%|█████     | 522/1024 [00:33<00:18, 27.21it/s][A
+CPNEST: populate samplers:  51%|█████▏    | 527/1024 [00:33<00:15, 31.22it/s][A
+CPNEST: populate samplers:  52%|█████▏    | 531/1024 [00:33<00:14, 33.10it/s][A
+CPNEST: populate samplers:  52%|█████▏    | 535/1024 [00:33<00:14, 34.42it/s][A
+CPNEST: populate samplers:  53%|█████▎    | 540/1024 [00:33<00:13, 37.20it/s][A
+CPNEST: populate samplers:  53%|█████▎    | 545/1024 [00:33<00:11, 40.40it/s][A
+CPNEST: populate samplers:  54%|█████▎    | 550/1024 [00:33<00:13, 34.25it/s][A
+CPNEST: populate samplers:  54%|█████▍    | 554/1024 [00:34<00:16, 28.13it/s][A
+CPNEST: populate samplers:  54%|█████▍    | 558/1024 [00:34<00:19, 24.21it/s][A
+CPNEST: populate samplers:  55%|█████▍    | 561/1024 [00:34<00:20, 22.21it/s][A
+CPNEST: populate samplers:  55%|█████▌    | 564/1024 [00:34<00:20, 22.83it/s][A
+CPNEST: populate samplers:  55%|█████▌    | 568/1024 [00:34<00:18, 24.19it/s][A
+CPNEST: populate samplers:  56%|█████▌    | 571/1024 [00:34<00:18, 25.09it/s][A
+CPNEST: populate samplers:  56%|█████▌    | 574/1024 [00:34<00:17, 25.72it/s][A
+CPNEST: populate samplers:  56%|█████▋    | 577/1024 [00:35<00:17, 24.92it/s][A
+CPNEST: populate samplers:  57%|█████▋    | 580/1024 [00:35<00:20, 21.18it/s][A
+CPNEST: populate samplers:  57%|█████▋    | 584/1024 [00:35<00:18, 23.66it/s][A
+CPNEST: populate samplers:  57%|█████▋    | 587/1024 [00:35<00:24, 18.01it/s][A
+CPNEST: populate samplers:  58%|█████▊    | 590/1024 [00:36<00:29, 14.86it/s][A
+CPNEST: populate samplers:  58%|█████▊    | 592/1024 [00:36<00:37, 11.59it/s][A
+CPNEST: populate samplers:  58%|█████▊    | 594/1024 [00:36<00:42, 10.02it/s][A
+CPNEST: populate samplers:  58%|█████▊    | 596/1024 [00:36<00:44,  9.60it/s][A
+CPNEST: populate samplers:  58%|█████▊    | 598/1024 [00:37<00:46,  9.19it/s][A
+CPNEST: populate samplers:  59%|█████▊    | 600/1024 [00:37<00:50,  8.42it/s][A
+CPNEST: populate samplers:  59%|█████▊    | 601/1024 [00:37<00:53,  7.93it/s][A
+CPNEST: populate samplers:  59%|█████▉    | 602/1024 [00:37<00:55,  7.56it/s][A
+CPNEST: populate samplers:  59%|█████▉    | 603/1024 [00:37<01:03,  6.59it/s][A
+CPNEST: populate samplers:  59%|█████▉    | 604/1024 [00:38<01:05,  6.41it/s][A
+CPNEST: populate samplers:  59%|█████▉    | 605/1024 [00:38<01:01,  6.84it/s][A
+CPNEST: populate samplers:  59%|█████▉    | 607/1024 [00:38<00:48,  8.68it/s][A
+CPNEST: populate samplers:  59%|█████▉    | 608/1024 [00:38<00:47,  8.78it/s][A
+CPNEST: populate samplers:  59%|█████▉    | 609/1024 [00:38<00:47,  8.77it/s][A
+CPNEST: populate samplers:  60%|█████▉    | 611/1024 [00:38<00:40, 10.17it/s][A
+CPNEST: populate samplers:  60%|█████▉    | 613/1024 [00:38<00:42,  9.76it/s][A
+CPNEST: populate samplers:  60%|█████▉    | 614/1024 [00:39<00:45,  9.11it/s][A
+CPNEST: populate samplers:  60%|██████    | 615/1024 [00:39<00:48,  8.35it/s][A
+CPNEST: populate samplers:  60%|██████    | 616/1024 [00:39<00:58,  6.99it/s][A
+CPNEST: populate samplers:  60%|██████    | 617/1024 [00:39<00:57,  7.12it/s][A
+CPNEST: populate samplers:  60%|██████    | 618/1024 [00:39<00:58,  6.94it/s][A
+CPNEST: populate samplers:  60%|██████    | 619/1024 [00:39<00:57,  7.02it/s][A
+CPNEST: populate samplers:  61%|██████    | 620/1024 [00:39<00:55,  7.31it/s][A
+CPNEST: populate samplers:  61%|██████    | 621/1024 [00:40<00:51,  7.76it/s][A
+CPNEST: populate samplers:  61%|██████    | 624/1024 [00:40<00:32, 12.18it/s][A
+CPNEST: populate samplers:  61%|██████    | 626/1024 [00:40<00:32, 12.14it/s][A
+CPNEST: populate samplers:  61%|██████▏   | 628/1024 [00:40<00:42,  9.21it/s][A
+CPNEST: populate samplers:  62%|██████▏   | 630/1024 [00:40<00:36, 10.84it/s][A
+CPNEST: populate samplers:  62%|██████▏   | 633/1024 [00:41<00:31, 12.25it/s][A
+CPNEST: populate samplers:  62%|██████▏   | 635/1024 [00:41<00:35, 10.87it/s][A
+CPNEST: populate samplers:  62%|██████▏   | 637/1024 [00:41<00:41,  9.43it/s][A
+CPNEST: populate samplers:  62%|██████▏   | 639/1024 [00:41<00:46,  8.25it/s][A
+CPNEST: populate samplers:  62%|██████▎   | 640/1024 [00:42<00:49,  7.74it/s][A
+CPNEST: populate samplers:  63%|██████▎   | 641/1024 [00:42<00:50,  7.59it/s][A
+CPNEST: populate samplers:  63%|██████▎   | 642/1024 [00:42<00:49,  7.64it/s][A
+CPNEST: populate samplers:  63%|██████▎   | 643/1024 [00:42<00:49,  7.67it/s][A
+CPNEST: populate samplers:  63%|██████▎   | 644/1024 [00:42<00:49,  7.68it/s][A
+CPNEST: populate samplers:  63%|██████▎   | 645/1024 [00:42<00:51,  7.38it/s][A
+CPNEST: populate samplers:  63%|██████▎   | 646/1024 [00:42<00:54,  7.00it/s][A
+CPNEST: populate samplers:  63%|██████▎   | 647/1024 [00:43<00:51,  7.27it/s][A
+CPNEST: populate samplers:  63%|██████▎   | 649/1024 [00:43<00:47,  7.97it/s][A
+CPNEST: populate samplers:  63%|██████▎   | 650/1024 [00:43<00:45,  8.26it/s][A
+CPNEST: populate samplers:  64%|██████▎   | 651/1024 [00:43<00:44,  8.33it/s][A
+CPNEST: populate samplers:  64%|██████▍   | 653/1024 [00:43<00:34, 10.71it/s][A
+CPNEST: populate samplers:  64%|██████▍   | 655/1024 [00:43<00:33, 11.03it/s][A
+CPNEST: populate samplers:  64%|██████▍   | 657/1024 [00:43<00:35, 10.21it/s][A
+CPNEST: populate samplers:  64%|██████▍   | 659/1024 [00:44<00:35, 10.24it/s][A
+CPNEST: populate samplers:  65%|██████▍   | 661/1024 [00:44<00:35, 10.21it/s][A
+CPNEST: populate samplers:  65%|██████▍   | 663/1024 [00:44<00:31, 11.37it/s][A
+CPNEST: populate samplers:  65%|██████▍   | 665/1024 [00:44<00:28, 12.70it/s][A
+CPNEST: populate samplers:  65%|██████▌   | 667/1024 [00:44<00:30, 11.64it/s][A
+CPNEST: populate samplers:  65%|██████▌   | 669/1024 [00:44<00:31, 11.38it/s][A
+CPNEST: populate samplers:  66%|██████▌   | 671/1024 [00:45<00:31, 11.38it/s][A
+CPNEST: populate samplers:  66%|██████▌   | 673/1024 [00:45<00:30, 11.38it/s][A
+CPNEST: populate samplers:  66%|██████▌   | 675/1024 [00:45<00:32, 10.59it/s][A
+CPNEST: populate samplers:  66%|██████▌   | 677/1024 [00:45<00:31, 11.16it/s][A
+CPNEST: populate samplers:  66%|██████▋   | 679/1024 [00:45<00:31, 10.87it/s][A
+CPNEST: populate samplers:  67%|██████▋   | 681/1024 [00:46<00:32, 10.60it/s][A
+CPNEST: populate samplers:  67%|██████▋   | 683/1024 [00:46<00:38,  8.90it/s][A
+CPNEST: populate samplers:  67%|██████▋   | 684/1024 [00:46<00:41,  8.28it/s][A
+CPNEST: populate samplers:  67%|██████▋   | 685/1024 [00:46<00:45,  7.47it/s][A
+CPNEST: populate samplers:  67%|██████▋   | 686/1024 [00:46<00:45,  7.48it/s][A
+CPNEST: populate samplers:  67%|██████▋   | 687/1024 [00:47<00:50,  6.72it/s][A
+CPNEST: populate samplers:  67%|██████▋   | 688/1024 [00:47<00:51,  6.50it/s][A
+CPNEST: populate samplers:  67%|██████▋   | 689/1024 [00:47<00:51,  6.46it/s][A
+CPNEST: populate samplers:  67%|██████▋   | 690/1024 [00:47<00:49,  6.73it/s][A
+CPNEST: populate samplers:  67%|██████▋   | 691/1024 [00:47<00:48,  6.81it/s][A
+CPNEST: populate samplers:  68%|██████▊   | 692/1024 [00:47<00:48,  6.89it/s][A
+CPNEST: populate samplers:  68%|██████▊   | 693/1024 [00:48<00:54,  6.05it/s][A
+CPNEST: populate samplers:  68%|██████▊   | 694/1024 [00:48<00:50,  6.51it/s][A
+CPNEST: populate samplers:  68%|██████▊   | 695/1024 [00:48<00:55,  5.88it/s][A
+CPNEST: populate samplers:  68%|██████▊   | 696/1024 [00:48<00:51,  6.39it/s][A
+CPNEST: populate samplers:  68%|██████▊   | 697/1024 [00:48<00:48,  6.71it/s][A
+CPNEST: populate samplers:  68%|██████▊   | 699/1024 [00:48<00:36,  8.88it/s][A
+CPNEST: populate samplers:  68%|██████▊   | 700/1024 [00:48<00:40,  8.03it/s][A
+CPNEST: populate samplers:  68%|██████▊   | 701/1024 [00:49<00:41,  7.79it/s][A
+CPNEST: populate samplers:  69%|██████▊   | 702/1024 [00:49<00:39,  8.06it/s][A
+CPNEST: populate samplers:  69%|██████▊   | 703/1024 [00:49<00:40,  7.93it/s][A
+CPNEST: populate samplers:  69%|██████▉   | 704/1024 [00:49<00:41,  7.69it/s][A
+CPNEST: populate samplers:  69%|██████▉   | 705/1024 [00:49<00:41,  7.76it/s][A
+CPNEST: populate samplers:  69%|██████▉   | 706/1024 [00:49<00:42,  7.55it/s][A
+CPNEST: populate samplers:  69%|██████▉   | 707/1024 [00:49<00:42,  7.44it/s][A
+CPNEST: populate samplers:  69%|██████▉   | 708/1024 [00:50<00:45,  6.97it/s][A
+CPNEST: populate samplers:  69%|██████▉   | 709/1024 [00:50<00:50,  6.23it/s][A
+CPNEST: populate samplers:  69%|██████▉   | 710/1024 [00:50<00:49,  6.32it/s][A
+CPNEST: populate samplers:  69%|██████▉   | 711/1024 [00:50<00:48,  6.49it/s][A
+CPNEST: populate samplers:  70%|██████▉   | 712/1024 [00:50<00:53,  5.83it/s][A
+CPNEST: populate samplers:  70%|██████▉   | 713/1024 [00:50<00:57,  5.41it/s][A
+CPNEST: populate samplers:  70%|██████▉   | 714/1024 [00:51<00:56,  5.51it/s][A
+CPNEST: populate samplers:  70%|██████▉   | 715/1024 [00:51<00:55,  5.60it/s][A
+CPNEST: populate samplers:  70%|██████▉   | 716/1024 [00:51<00:59,  5.18it/s][A
+CPNEST: populate samplers:  70%|███████   | 717/1024 [00:51<00:55,  5.49it/s][A
+CPNEST: populate samplers:  70%|███████   | 718/1024 [00:51<00:49,  6.14it/s][A
+CPNEST: populate samplers:  70%|███████   | 719/1024 [00:51<00:45,  6.68it/s][A
+CPNEST: populate samplers:  70%|███████   | 720/1024 [00:52<00:42,  7.15it/s][A
+CPNEST: populate samplers:  70%|███████   | 721/1024 [00:52<00:47,  6.38it/s][A
+CPNEST: populate samplers:  71%|███████   | 722/1024 [00:52<00:47,  6.33it/s][A
+CPNEST: populate samplers:  71%|███████   | 723/1024 [00:52<00:50,  5.97it/s][A
+CPNEST: populate samplers:  71%|███████   | 724/1024 [00:52<00:47,  6.25it/s][A
+CPNEST: populate samplers:  71%|███████   | 725/1024 [00:52<00:47,  6.29it/s][A
+CPNEST: populate samplers:  71%|███████   | 726/1024 [00:53<00:43,  6.92it/s][A
+CPNEST: populate samplers:  71%|███████   | 727/1024 [00:53<00:43,  6.90it/s][A
+CPNEST: populate samplers:  71%|███████   | 728/1024 [00:53<00:41,  7.20it/s][A
+CPNEST: populate samplers:  71%|███████▏  | 730/1024 [00:53<00:28, 10.14it/s][A
+CPNEST: populate samplers:  71%|███████▏  | 732/1024 [00:53<00:24, 11.90it/s][A
+CPNEST: populate samplers:  72%|███████▏  | 734/1024 [00:53<00:22, 13.11it/s][A
+CPNEST: populate samplers:  72%|███████▏  | 736/1024 [00:53<00:19, 14.85it/s][A
+CPNEST: populate samplers:  72%|███████▏  | 738/1024 [00:53<00:17, 16.06it/s][A
+CPNEST: populate samplers:  72%|███████▏  | 740/1024 [00:53<00:17, 16.65it/s][A
+CPNEST: populate samplers:  72%|███████▏  | 742/1024 [00:54<00:16, 16.81it/s][A
+CPNEST: populate samplers:  73%|███████▎  | 744/1024 [00:54<00:15, 17.54it/s][A
+CPNEST: populate samplers:  73%|███████▎  | 749/1024 [00:54<00:11, 24.87it/s][A
+CPNEST: populate samplers:  73%|███████▎  | 752/1024 [00:54<00:10, 25.45it/s][A
+CPNEST: populate samplers:  74%|███████▍  | 756/1024 [00:54<00:09, 27.92it/s][A
+CPNEST: populate samplers:  74%|███████▍  | 759/1024 [00:54<00:09, 26.69it/s][A
+CPNEST: populate samplers:  75%|███████▍  | 763/1024 [00:54<00:09, 26.91it/s][A
+CPNEST: populate samplers:  75%|███████▍  | 767/1024 [00:54<00:08, 28.96it/s][A
+CPNEST: populate samplers:  75%|███████▌  | 772/1024 [00:55<00:07, 33.98it/s][A
+CPNEST: populate samplers:  76%|███████▌  | 776/1024 [00:55<00:07, 32.98it/s][A
+CPNEST: populate samplers:  77%|███████▋  | 785/1024 [00:55<00:05, 47.17it/s][A
+CPNEST: populate samplers:  77%|███████▋  | 791/1024 [00:55<00:04, 48.36it/s][A
+CPNEST: populate samplers:  78%|███████▊  | 796/1024 [00:55<00:04, 48.62it/s][A
+CPNEST: populate samplers:  78%|███████▊  | 802/1024 [00:55<00:04, 49.75it/s][A
+CPNEST: populate samplers:  79%|███████▉  | 808/1024 [00:55<00:04, 47.70it/s][A
+CPNEST: populate samplers:  79%|███████▉  | 813/1024 [00:55<00:04, 44.91it/s][A
+CPNEST: populate samplers:  80%|████████  | 821/1024 [00:55<00:03, 52.81it/s][A
+CPNEST: populate samplers:  81%|████████  | 828/1024 [00:56<00:03, 56.92it/s][A
+CPNEST: populate samplers:  81%|████████▏ | 834/1024 [00:56<00:03, 53.16it/s][A
+CPNEST: populate samplers:  82%|████████▏ | 840/1024 [00:56<00:03, 53.10it/s][A
+CPNEST: populate samplers:  83%|████████▎ | 846/1024 [00:56<00:03, 50.08it/s][A
+CPNEST: populate samplers:  83%|████████▎ | 852/1024 [00:56<00:03, 47.16it/s][A
+CPNEST: populate samplers:  84%|████████▎ | 857/1024 [00:56<00:03, 42.70it/s][A
+CPNEST: populate samplers:  84%|████████▍ | 862/1024 [00:57<00:05, 31.53it/s][A
+CPNEST: populate samplers:  85%|████████▍ | 866/1024 [00:57<00:06, 24.03it/s][A
+CPNEST: populate samplers:  85%|████████▍ | 869/1024 [00:57<00:07, 19.41it/s][A
+CPNEST: populate samplers:  85%|████████▌ | 872/1024 [00:57<00:08, 17.82it/s][A
+CPNEST: populate samplers:  85%|████████▌ | 875/1024 [00:57<00:08, 17.50it/s][A
+CPNEST: populate samplers:  86%|████████▌ | 877/1024 [00:58<00:09, 14.85it/s][A
+CPNEST: populate samplers:  86%|████████▌ | 879/1024 [00:58<00:11, 12.52it/s][A
+CPNEST: populate samplers:  86%|████████▌ | 881/1024 [00:58<00:14,  9.96it/s][A
+CPNEST: populate samplers:  86%|████████▌ | 883/1024 [00:59<00:16,  8.52it/s][A
+CPNEST: populate samplers:  86%|████████▋ | 884/1024 [00:59<00:17,  8.03it/s][A
+CPNEST: populate samplers:  86%|████████▋ | 885/1024 [00:59<00:18,  7.54it/s][A
+CPNEST: populate samplers:  87%|████████▋ | 886/1024 [00:59<00:19,  7.04it/s][A
+CPNEST: populate samplers:  87%|████████▋ | 887/1024 [00:59<00:18,  7.29it/s][A
+CPNEST: populate samplers:  87%|████████▋ | 888/1024 [00:59<00:20,  6.77it/s][A
+CPNEST: populate samplers:  87%|████████▋ | 889/1024 [01:00<00:22,  5.97it/s][A
+CPNEST: populate samplers:  87%|████████▋ | 891/1024 [01:00<00:16,  8.26it/s][A
+CPNEST: populate samplers:  87%|████████▋ | 895/1024 [01:00<00:09, 13.92it/s][A
+CPNEST: populate samplers:  88%|████████▊ | 899/1024 [01:00<00:06, 18.69it/s][A
+CPNEST: populate samplers:  88%|████████▊ | 902/1024 [01:00<00:05, 20.38it/s][A
+CPNEST: populate samplers:  88%|████████▊ | 905/1024 [01:00<00:05, 21.35it/s][A
+CPNEST: populate samplers:  89%|████████▉ | 910/1024 [01:00<00:04, 27.61it/s][A
+CPNEST: populate samplers:  89%|████████▉ | 914/1024 [01:00<00:03, 29.68it/s][A
+CPNEST: populate samplers:  90%|████████▉ | 919/1024 [01:01<00:03, 33.68it/s][A
+CPNEST: populate samplers:  90%|█████████ | 923/1024 [01:01<00:03, 32.20it/s][A
+CPNEST: populate samplers:  91%|█████████ | 927/1024 [01:01<00:03, 31.00it/s][A
+CPNEST: populate samplers:  91%|█████████ | 931/1024 [01:01<00:03, 29.48it/s][A
+CPNEST: populate samplers:  91%|█████████▏| 935/1024 [01:01<00:03, 28.86it/s][A
+CPNEST: populate samplers:  92%|█████████▏| 939/1024 [01:01<00:02, 30.17it/s][A
+CPNEST: populate samplers:  92%|█████████▏| 944/1024 [01:01<00:02, 34.01it/s][A
+CPNEST: populate samplers:  93%|█████████▎| 949/1024 [01:02<00:01, 37.82it/s][A
+CPNEST: populate samplers:  93%|█████████▎| 954/1024 [01:02<00:01, 39.13it/s][A
+CPNEST: populate samplers:  94%|█████████▍| 960/1024 [01:02<00:01, 42.34it/s][A
+CPNEST: populate samplers:  94%|█████████▍| 965/1024 [01:02<00:01, 42.42it/s][A
+CPNEST: populate samplers:  95%|█████████▍| 971/1024 [01:02<00:01, 46.14it/s][A
+CPNEST: populate samplers:  95%|█████████▌| 977/1024 [01:02<00:00, 48.46it/s][A
+CPNEST: populate samplers:  96%|█████████▌| 982/1024 [01:02<00:00, 48.67it/s][A
+CPNEST: populate samplers:  96%|█████████▋| 987/1024 [01:02<00:00, 43.94it/s][A
+CPNEST: populate samplers:  97%|█████████▋| 992/1024 [01:02<00:00, 43.54it/s][A
+CPNEST: populate samplers:  97%|█████████▋| 997/1024 [01:03<00:00, 43.62it/s][A
+CPNEST: populate samplers:  98%|█████████▊| 1002/1024 [01:03<00:00, 39.49it/s][A
+CPNEST: populate samplers:  98%|█████████▊| 1007/1024 [01:03<00:00, 35.04it/s][A
+CPNEST: populate samplers:  99%|█████████▉| 1012/1024 [01:03<00:00, 37.33it/s][A
+CPNEST: populate samplers:  99%|█████████▉| 1016/1024 [01:03<00:00, 35.91it/s][A
+CPNEST: populate samplers: 100%|█████████▉| 1021/1024 [01:03<00:00, 39.29it/s][ACPNEST: populate samplers: 100%|██████████| 1024/1024 [01:03<00:00, 16.04it/s]
+
